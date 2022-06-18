@@ -1,0 +1,149 @@
+.preferences {
+    &__inner-wrapper {
+        max-width: 1151px;
+    }
+
+    &__container {}
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__rigth {}
+
+    &__list {}
+
+    &__item {
+        display: flex;
+
+    }
+
+    &__number {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: rgba(14, 135, 133, 0.8);
+
+
+    }
+
+    &__number--plan {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+
+    }
+
+    &__text {
+        margin-left: 28px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: rgba(51, 61, 75, 0.8);
+        cursor: pointer;
+
+        &:hover {
+            color: rgba(50, 55, 61, 0.4);
+        }
+    }
+
+    &__text--deliveries {
+        margin-left: 28px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        cursor: pointer;
+
+    }
+
+    &__line {
+        padding: 0;
+        margin: 30px 0;
+        border: none solid;
+        width: 255px;
+        background-color: rgba(131, 136, 143, 0.8);
+
+    }
+
+    &__left {
+        margin-left: 170px;
+    }
+
+    &__heading--one {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+        margin-bottom: 56px;
+
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+        margin-top: 88px;
+        margin-bottom: 56px;
+    }
+
+    &__list--box {
+        display: flex;
+        gap: 23px;
+    }
+
+    &__item--box {
+        width: 228px;
+        height: 250px;
+        left: 545px;
+        top: 1656px;
+        background: #F4F1EB;
+        border-radius: 8px;
+        padding: 32px;
+
+        &:hover {
+            background-color: #FDD6BA;
+            transition: all 1s;
+
+
+            &:active {
+                background-color: #0E8784;
+            }
+        }
+    }
+
+    &__heading--all {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+        margin-bottom: 24px;
+
+
+    }
+
+    &__title {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+
+    }
+}

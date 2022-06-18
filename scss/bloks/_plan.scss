@@ -1,0 +1,36 @@
+.plan {
+    &__inner-wrapper {}
+
+    &__container {
+        background-image: url(./../images/plan.png);
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 117px 85px;
+    }
+
+    &__wrapper {}
+
+    &__heading {
+        width: 485px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        width: 445px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(254, 252, 247, 0.8);
+        mix-blend-mode: normal;
+    }
+}

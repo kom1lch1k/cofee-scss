@@ -1,0 +1,200 @@
+.hero {
+    &__inner-wrapper {}
+
+    &__container {
+        background-image: url(./../images/hero_img.png);
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 117px 85px;
+    }
+
+    &__wrapper {
+        max-width: 493px;
+        width: 100%;
+    }
+
+    &__heading {
+        font-family: 'Fraunces';
+        font-size: 72px;
+        line-height: 72px;
+        color: #fefcf7;
+        max-width: 100%;
+        width: 493px;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        line-height: 26px;
+        color: rgba(254, 252, 247, 0.8);
+        margin-bottom: 56px;
+        font-size: 16px;
+        max-width: 440px;
+        width: 100%;
+    }
+
+    &__btn {
+        border: none;
+        outline: none;
+        text-decoration: none;
+
+    }
+
+    button{
+        cursor: pointer;
+        border: none;
+        outline: none;
+        text-decoration: none;
+        background-color: #0e8784;
+        color: white;
+        border-radius: 6px;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Francues';
+        padding: 16px 31px;
+
+        &:hover {
+            background-color: #66D2CF;
+        }
+
+        &:active {
+            background-color: #E2DEDB;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        &__inner-wrapper {
+            background-color: white;
+
+        }
+
+        &__container {}
+
+        &__wrapper {}
+
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 48px;
+            color: #FEFCF7;
+            width: 329px;
+        }
+
+        &__text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: rgba(254, 252, 247, 0.8);
+            mix-blend-mode: normal;
+            width: 398px;
+        }
+
+        &__btn {}
+
+        button {
+
+
+            &:hover {}
+
+            &:active {}
+
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        &__inner-wrapper {
+            background: red;
+        }
+
+        &__container {
+            background-image: url(./../images/mobile.png);
+            background-size: 689px 500px;
+        }
+
+        &__wrapper {}
+
+        &__heading {}
+
+        &__text {}
+
+        &__btn {}
+
+        button {
+
+
+            &:hover {}
+
+            &:active {}
+
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .hero {
+        &__inner-wrapper {
+            background-color: white;
+
+        }
+
+        &__container {
+            background-image: url(./../images/hero-bg-mob.png);
+            background-size: 327px 500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        &__wrapper {}
+
+        &__heading {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #FEFCF7;
+            width: 279px;
+
+        }
+
+        &__text {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+
+        }
+
+        &__btn {}
+
+        button {
+
+
+            &:hover {}
+
+            &:active {}
+
+        }
+
+    }
+
+}

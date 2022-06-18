@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow", 'Arial', sans-serif;
+    padding-top: 44px;
+    font-size: 16px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fraunces' serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}

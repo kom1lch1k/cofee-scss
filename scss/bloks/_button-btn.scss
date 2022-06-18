@@ -1,0 +1,24 @@
+.button-btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    background-color: #0e8784;
+    color: white;
+    border-radius: 6px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Francues';
+    padding: 16px 31px;
+    margin-left: 550px;
+    margin-top: 40px;
+    margin-bottom: 170px;
+
+    &:hover{
+        background-color: #66D2CF;
+    }
+
+    &:active{
+        background-color: #E2DEDB;
+    }
+}

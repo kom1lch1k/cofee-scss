@@ -1,0 +1,53 @@
+.collection {
+    &__inner-wrapper {
+        max-width: 1151px;
+    }
+
+    &__container {
+        background-image: url(./../images/our_collection.png);
+        background-repeat: no-repeat;
+        background-size: 1111px 196px;
+        padding-top: 129px;
+    }
+
+    &__wrapper {}
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__list {
+        
+    }
+
+    &__img {
+        margin-bottom: 72px;
+    }
+
+    &__headeing {
+        text-align: center;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        text-align: center;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+        margin-bottom: 143px;
+
+    }
+}
